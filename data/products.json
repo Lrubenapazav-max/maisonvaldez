@@ -1,0 +1,95 @@
+[
+  {
+    "id": "mv-001",
+    "name": "Manteau Signature",
+    "collection": "Hiver 2026",
+    "price": 4890,
+    "currency": "EUR",
+    "description": "Abrigo de lana virgen con silueta arquitectónica. Forro de seda italiana y botones dorados mate.",
+    "image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=1200&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=1200&q=80",
+    "colors": [
+      { "name": "Noir", "hex": "#141414", "stock": { "XS": 2, "S": 4, "M": 6, "L": 3, "XL": 1 } },
+      { "name": "Camel", "hex": "#C4A574", "stock": { "XS": 1, "S": 3, "M": 5, "L": 2, "XL": 0 } },
+      { "name": "Ivoire", "hex": "#F0EDE6", "stock": { "XS": 0, "S": 2, "M": 4, "L": 3, "XL": 2 } }
+    ],
+    "featured": true
+  },
+  {
+    "id": "mv-002",
+    "name": "Sac Élégance",
+    "collection": "Maroquinerie",
+    "price": 3290,
+    "currency": "EUR",
+    "description": "Bolso de cuero de becerro con herrajes plateados. Costuras a mano y acabado satinado.",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=1200&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1590871191675-c37da4e6c2b4?w=1200&q=80",
+    "colors": [
+      { "name": "Noir", "hex": "#141414", "stock": { "Unique": 8 } },
+      { "name": "Bordeaux", "hex": "#5C1A24", "stock": { "Unique": 4 } },
+      { "name": "Champagne", "hex": "#D4C4A8", "stock": { "Unique": 3 } }
+    ],
+    "featured": true
+  },
+  {
+    "id": "mv-003",
+    "name": "Robe Couture",
+    "collection": "Prêt-à-Porter",
+    "price": 2450,
+    "currency": "EUR",
+    "description": "Vestido de seda fluida con caída impecable. Corte minimalista y detalle dorado discreto.",
+    "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=1200&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=1200&q=80",
+    "colors": [
+      { "name": "Noir", "hex": "#141414", "stock": { "XS": 3, "S": 5, "M": 4, "L": 2 } },
+      { "name": "Émeraude", "hex": "#1B3D34", "stock": { "XS": 1, "S": 2, "M": 3, "L": 1 } }
+    ],
+    "featured": true
+  },
+  {
+    "id": "mv-004",
+    "name": "Blazer Atelier",
+    "collection": "Essentials",
+    "price": 1890,
+    "currency": "EUR",
+    "description": "Blazer entallado en lana merino. Solapas satinadas y botonadura oculta.",
+    "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=1200&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1507679799987-c737795145a9?w=1200&q=80",
+    "colors": [
+      { "name": "Anthracite", "hex": "#3D3D3D", "stock": { "S": 4, "M": 6, "L": 5, "XL": 2 } },
+      { "name": "Marine", "hex": "#1A2744", "stock": { "S": 2, "M": 4, "L": 3, "XL": 1 } }
+    ],
+    "featured": false
+  },
+  {
+    "id": "mv-005",
+    "name": "Écharpe Soie",
+    "collection": "Accessoires",
+    "price": 590,
+    "currency": "EUR",
+    "description": "Pañuelo de seda pura con monograma MV bordado. Acabado mate y tacto sedoso.",
+    "image": "https://images.unsplash.com/photo-1601924994987-69e26d50bc26?w=1200&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1520903923143-4ff02c90dca5?w=1200&q=80",
+    "colors": [
+      { "name": "Or", "hex": "#B8A066", "stock": { "Unique": 12 } },
+      { "name": "Argent", "hex": "#9A9B9E", "stock": { "Unique": 10 } },
+      { "name": "Noir", "hex": "#141414", "stock": { "Unique": 15 } }
+    ],
+    "featured": false
+  },
+  {
+    "id": "mv-006",
+    "name": "Escarpins Ligne",
+    "collection": "Chaussures",
+    "price": 1290,
+    "currency": "EUR",
+    "description": "Tacón fino en cuero lacado. Suela de cuero y plantilla acolchada.",
+    "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=1200&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=1200&q=80",
+    "colors": [
+      { "name": "Noir", "hex": "#141414", "stock": { "36": 2, "37": 4, "38": 5, "39": 3, "40": 2 } },
+      { "name": "Nude", "hex": "#D4B8A0", "stock": { "36": 1, "37": 3, "38": 4, "39": 2, "40": 1 } }
+    ],
+    "featured": false
+  }
+]

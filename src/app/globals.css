@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-ivory text-matte font-sans font-light;
+  }
+
+  ::selection {
+    @apply bg-gold/20 text-matte;
+  }
+}
+
+@layer components {
+  .luxury-line {
+    @apply h-px bg-gradient-to-r from-transparent via-gold/40 to-transparent;
+  }
+
+  .luxury-btn {
+    @apply relative inline-flex items-center justify-center px-8 py-3.5
+      text-[11px] font-normal uppercase tracking-luxury
+      border border-matte/80 text-matte
+      transition-all duration-700 ease-luxury
+      hover:bg-matte hover:text-ivory
+      disabled:opacity-40 disabled:pointer-events-none;
+  }
+
+  .luxury-btn-gold {
+    @apply luxury-btn border-gold/60 text-matte
+      hover:bg-gold hover:border-gold hover:text-ivory;
+  }
+
+  .luxury-input {
+    @apply w-full bg-transparent border-b border-matte/20
+      py-3 text-sm font-light tracking-wide text-matte
+      placeholder:text-silver/60
+      focus:outline-none focus:border-gold/60
+      transition-colors duration-500;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
