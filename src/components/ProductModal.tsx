@@ -27,6 +27,9 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
   const stock = selectedSize
     ? getStock(product, selectedColor, selectedSize)
     : 0;
+  const imageFit = product.image.startsWith("/")
+    ? "object-contain"
+    : "object-cover";
 
   useEffect(() => {
     if (isOpen) {
@@ -103,7 +106,7 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
                   src={product.image}
                   alt={product.name}
                   fill
-                  className="object-cover"
+                  className={imageFit}
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </div>

@@ -17,6 +17,10 @@ export function ProductCard({ product, index }: ProductCardProps) {
   const [modalOpen, setModalOpen] = useState(false);
   const totalStock = getTotalStock(product);
   const isLowStock = totalStock > 0 && totalStock <= 3;
+  const localImage = product.image.startsWith("/");
+  const imageFit = localImage ? "object-contain" : "object-cover";
+  const hoverFit =
+    product.hoverImage.startsWith("/") ? "object-contain" : "object-cover";
 
   return (
     <>
@@ -43,7 +47,7 @@ export function ProductCard({ product, index }: ProductCardProps) {
             src={product.image}
             alt={product.name}
             fill
-            className={`object-cover transition-all duration-1000 ease-luxury ${
+            className={`${imageFit} transition-all duration-1000 ease-luxury ${
               isHovered ? "opacity-0 scale-105" : "opacity-100 scale-100"
             }`}
             sizes="(max-width: 768px) 100vw, 33vw"
@@ -52,7 +56,7 @@ export function ProductCard({ product, index }: ProductCardProps) {
             src={product.hoverImage}
             alt={`${product.name} — vista alternativa`}
             fill
-            className={`object-cover transition-all duration-1000 ease-luxury ${
+            className={`${hoverFit} transition-all duration-1000 ease-luxury ${
               isHovered ? "opacity-100 scale-100" : "opacity-0 scale-105"
             }`}
             sizes="(max-width: 768px) 100vw, 33vw"
